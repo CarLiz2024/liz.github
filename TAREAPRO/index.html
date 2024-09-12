@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"> 
+<title>FORMULARIO</title>
+</head>
+<body>
+<h1>Formulario de clase de Programación</h1>
+<form>
+    <div class="form-container">
+        <div>
+        <label class="form-label" for="nombres">Nombres y apellidos:</label>
+        <input class="form-input" type="text" id="nombres" name="nombres"><br><br>
+        </div>
+        <div>
+        <label class="form-label" for="edad">Edad:</label>
+        <input class="form-input" type="number" id="edad" name="edad"><br><br>
+        </div>
+        <div>
+        <label class="form-label" for="contraseña">Contraseña:</label>
+        <input class="form-input" type="password" id="contraseña" name="contraseña"><br><br>
+        </div>
+        <div>
+        <label class="form-label" for="fecha">Fecha:</label>
+        <input class="form-input" type="date" id="fecha" name="fecha"><br><br>
+        </div>
+        <div>
+        <label class="form-label" for="correo">Correo:</label>
+        <input class="form-input" type="email" id="correo" name="correo"><br><br>
+        </div>
+        <div>
+        <label class="form-label" for="solo-lectura">Solo lectura:</label>
+        <input class="form-input" type="text" id="solo-lectura" name="solo-lectura" readonly><br><br>
+        </div>
+    </div>
+oculto <p>
+    textarea:         
+        <textarea name="mytextarea" rows="15" cols="45"></textarea>
+        <input type="hidden" name="hiddentextarea" value="">
+        </form>
+Lista de Colores
+    <select id="color" name="color" required>
+        <option value="Rosa">Rosa</option>            
+        <option value="Rojo">Rojo</option>
+        <option value="Lila">Lila</option>
+        <option value="Celeste">Celeste</option>
+        <option value="Negro">Negro</option>
+    </select><br><br>
+Radio <p>
+        <input type="radio" name="language" id="html" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" name="language" id="css" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" name="language" id="javascript" value="JAVASCRIPT">
+        <label for="javascript">JAVASCRIPT</label><br><br>
+
+Check:<p>
+    <input type="checkbox" id="html" name="language" value="html">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="language" value="css">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="javascript" name="language" value="javascript">
+    <label for="javascript">JAVASCRIPT</label><br><br><br>
+    
+Subir Archivo:
+    <input type="file" id="fileInput" name="fileInput"><br><br><br>
+
+Color:
+    <input type="color" id="colorInput" name="colorInput" value="#ff524"><br><br><br>
+
+Placeholder:
+    <input type="number" id="placeholderInput" name="placeholderInput" placeholder="Ingrese números"><br><br><br>
+
+Maxlenght:
+    <input type="number" id="maxLengthInput" name="maxLengthInput"><br><br>
+
+Max:
+    <input type="number" id="maxInput" name="maxInput" min="0" max="50"><br><br>
+
+Resetear
+    <input type="reset" value="Submit"><br><br>
+
+    <input type="submit" value="Enviar">
+    
+</form>
+</body>
+</html>

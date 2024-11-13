@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+}
+
+a {
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-style: arial;
+    font-family: Muli, sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.texto-estilizado {
+    font-size: 13px;
+    color: #000000;
+    font-style: Muli;
+    font-family: sans-serif;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.menu-bar {
+    font-size: 13px;
+    color: #191616;
+    font-family: Muli, sans-serif;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    display: block;
+    cursor: pointer;
+}
+
+#menu-bar#menu:hover{
+    background-color: #bd1919;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 10000px;
+    margin: 0 auto;
+}
+
+a {
+    padding: 0 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-style: Muli;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#buscador-menu{
+    font-size: 100px;
+    line-height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0 5px;
+    width: 50%;
+    border: none;
+    text-align: left;
+}
+
+#logo-link{
+    display: flex; 
+    align-items: flex-start;
+}
+
+.custom-logo-link{
+    margin-right: 10px; 
+    width: 150px;  
+    height: auto;
+}
+
+input[type="text"] { 
+    width: 730px;
+    padding: 15px;
+    font-size: 16px;
+    font-style: bold;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder { 
+    font-size: 16px;
+    color: #524e4e;
+    text-align: left;
+}
+
+button#boton { 
+padding: 8px 8px;
+font-size: 16px;
+border: 1px solid #ccc; 
+border-radius: 5px; 
+background-color: #000000;
+color: white;
+cursor: pointer; 
+margin-left: 0%; 
+text-align: left;
+} 
+
+button#boton:hover { 
+    background-color: #262e27;
+}
+
+
+#img1{
+    border: none;
+    width: 100%;
+}
+
+#img2{
+    border: none;
+    width: 100%;
+}
+
+#img2{
+    border: none;
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+#menu {
+    
+    background-color: #9b6bdf; 
+    padding: 5px; 
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: space-around; 
+}
+
+
+#menu .item_menu {
+    padding: 5px 10px; 
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    border-radius: 3px; 
+}
+
+#menu .item_menu:hover {
+    background-color: #757797; 
+    color: #9b6bdf; 
+}
